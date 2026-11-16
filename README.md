@@ -15,18 +15,25 @@ Chez LOGOS, éditeur d'un logiciel de radiologie utilisé par 6 groupes d'imager
 
 ## Ce que vous trouverez ici
 
-Le code de ces projets appartient à LOGOS et n'est pas public. Ce compte rassemble donc de petits projets personnels, que je publie pour montrer ma façon de travailler.
+Le code de ces projets appartient à LOGOS et n'est pas public. Je publie donc, ici et sur GitLab, de petits projets personnels qui montrent ma façon de travailler : une branche et une relecture pour chaque évolution, des tests automatisés et une intégration continue.
 
-En cours : un plugin Sylius 2 qui simule un prestataire de paiement (page de paiement hébergée, webhook signé, remboursement), avec tests et CI.
+- **[SyliusSandboxPaymentPlugin](https://github.com/steveboulay/SyliusSandboxPaymentPlugin)** · PHP 8, Sylius 2, PHPUnit, PHPStan, GitHub Actions
+  Plugin Sylius qui simule un prestataire de paiement : moyen de paiement configurable dans l'administration, redirection vers une page de paiement simulée, signature des webhooks en HMAC-SHA256. CI sur trois configurations (Sylius 2.2 et 2.3, MySQL et PostgreSQL). En cours.
+- **[planning-gardes](https://gitlab.com/steveboulay/planning-gardes)** (GitLab) · Python, pytest, ruff, GitLab CI
+  Vérificateur de planning de gardes pour soignants : il signale les repos insuffisants, les nuits consécutives en trop, les dépassements d'heures hebdomadaires et les jours de repos demandés non respectés. 41 tests écrits avant le code. Je l'écris pour apprendre Python ; suivront une API Django REST Framework, PostgreSQL et une interface React.
+
+Je code avec l'IA (Claude Code). Le fichier [NOTES-IA.md](https://gitlab.com/steveboulay/planning-gardes/-/blob/main/NOTES-IA.md) du projet de planning détaille, test par test, ce qu'elle a proposé, ce que j'ai gardé ou corrigé, et comment je l'ai vérifié.
 
 ## Technologies
 
 - **Backend :** PHP 8, Symfony 6.4, API Platform, C
 - **Frontend :** Angular 17, TypeScript, RxJS
 - **Données :** PostgreSQL, MySQL, Redis
-- **DevOps :** Docker Compose, Nginx, Git, Linux
+- **DevOps :** Docker Compose, Nginx, Linux
+- **Tests et CI :** Git, PHPUnit, PHPStan, pytest, GitHub Actions, GitLab CI
+- **En apprentissage :** Python, Sylius 2
 - **Santé :** HL7, DICOM
 
 ## Me contacter
 
-[Mon profil LinkedIn](https://www.linkedin.com/in/steve-boulay/)
+[Mon profil LinkedIn](https://www.linkedin.com/in/steve-boulay/) · [Mon compte GitLab](https://gitlab.com/steveboulay)
