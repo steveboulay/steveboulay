@@ -29,7 +29,7 @@ Je code avec l'IA (Claude Code). Le fichier [NOTES-IA.md](https://gitlab.com/ste
 ## Technologies
 
 - **Backend :** PHP 8, Symfony 6.4, API Platform, Symfony Messenger, JWT, C, C++
-- **Frontend :** TypeScript, Angular 17, RxJS
+- **Frontend :** TypeScript, JavaScript, Angular 17, RxJS
 - **Données :** PostgreSQL, MySQL, Redis
 - **DevOps :** Docker, Docker Compose, Nginx, Apache, Linux
 - **Tests et CI :** Git, PHPUnit, PHPStan, pytest, GitHub Actions, GitLab CI
