@@ -24,7 +24,7 @@ Le code de ces projets appartient à LOGOS et n'est pas public. Je publie donc, 
 - **[planning-gardes](https://gitlab.com/steveboulay/planning-gardes)** (GitLab) · Python, Django REST Framework, PostgreSQL, pytest, GitLab CI
   Vérificateur de planning de gardes pour soignants : il signale les repos insuffisants, les nuits consécutives en trop, les dépassements d'heures hebdomadaires et les jours de repos demandés non respectés. API Django REST Framework sur PostgreSQL, sous Docker Compose, avec une contrainte d'exclusion qui refuse deux postes qui se chevauchent. 76 tests pytest écrits avant le code, CI GitLab avec PostgreSQL. Je l'écris pour apprendre Python et Django ; l'interface React suivra.
 
-Je code avec l'IA (Claude Code). Le fichier [NOTES-IA.md](https://gitlab.com/steveboulay/planning-gardes/-/blob/main/NOTES-IA.md) du projet de planning détaille, test par test, ce qu'elle a proposé, ce que j'ai gardé ou corrigé, et comment je l'ai vérifié.
+Je code avec l'IA (Claude Code). Chaque projet a un journal, NOTES-IA.md, qui détaille ce qu'elle a proposé, ce que j'ai gardé ou corrigé, et comment je l'ai vérifié : [celui du plugin Sylius](https://github.com/steveboulay/SyliusSandboxPaymentPlugin/blob/main/NOTES-IA.md) et [celui du projet de planning](https://gitlab.com/steveboulay/planning-gardes/-/blob/main/NOTES-IA.md).
 
 ## Technologies
 
